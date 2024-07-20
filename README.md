@@ -2,15 +2,19 @@
 
 This project is a Flask web application that predicts the salary of an employee based on various input features such as age, gender, designation, department, past experience, and performance ratings. The model also provides recommendations based on the total experience of the employee.
 
-##upervised by
+## upervised by
+
 Prof. Agughasi Victor Ikechukwu, (Assistant Professor) Department of CSE, MIT Mysore)
 
-##Collaborators
+## Collaborators
 
-4MH21CS020 Deepika T R
-4MH21CS021 Deepthi K
-4MH21CS065 Nishanth K J
-4MH21CS099 Skanda P M
+4MH21CS028 Gokulnath UC
+
+4MH21CS074 R Bilwananda
+
+4MH21CS086 Shalom Raj J
+
+4MH21CS092 Shreyas Gowda S
 
 ## Table of Contents
 - [Overview](#overview)
