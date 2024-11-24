@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pickle
 import pandas as pd
-
+import os
 app = Flask(__name__)
 
 # Load the pre-trained model
@@ -85,5 +85,6 @@ def predict():
         error_message = f"An error occurred: {str(e)}"
         return render_template('error.html', error_message=error_message)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
